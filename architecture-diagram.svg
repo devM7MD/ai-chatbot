@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- خلفية -->
+  <rect width="800" height="500" fill="#f8fafc" rx="10" ry="10" />
+  
+  <!-- تطبيق Next.js -->
+  <rect x="60" y="60" width="300" height="380" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" rx="8" ry="8" />
+  <rect x="60" y="60" width="300" height="50" fill="#0ea5e9" rx="8" ry="8" />
+  <text x="210" y="92" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white">تطبيق Next.js</text>
+  
+  <!-- مكونات التطبيق -->
+  <rect x="80" y="130" width="260" height="50" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" rx="6" ry="6" />
+  <text x="210" y="160" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0369a1">واجهة المستخدم</text>
+  
+  <rect x="80" y="190" width="260" height="50" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" rx="6" ry="6" />
+  <text x="210" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0369a1">خدمات المصادقة</text>
+  
+  <rect x="80" y="250" width="260" height="50" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" rx="6" ry="6" />
+  <text x="210" y="280" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0369a1">خدمات المحادثة</text>
+  
+  <rect x="80" y="310" width="260" height="50" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" rx="6" ry="6" />
+  <text x="210" y="340" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0369a1">خدمات API</text>
+  
+  <rect x="80" y="370" width="260" height="50" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" rx="6" ry="6" />
+  <text x="210" y="400" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0369a1">قاعدة بيانات SQLite</text>
+  
+  <!-- API الذكاء الاصطناعي -->
+  <rect x="440" y="60" width="300" height="380" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" rx="8" ry="8" />
+  <rect x="440" y="60" width="300" height="50" fill="#4f46e5" rx="8" ry="8" />
+  <text x="590" y="92" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white">API الذكاء الاصطناعي</text>
+  
+  <!-- مكونات API الذكاء الاصطناعي -->
+  <rect x="460" y="130" width="260" height="50" fill="#ede9fe" stroke="#ddd6fe" stroke-width="1" rx="6" ry="6" />
+  <text x="590" y="160" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#5b21b6">FastAPI</text>
+  
+  <rect x="460" y="190" width="260" height="50" fill="#ede9fe" stroke="#ddd6fe" stroke-width="1" rx="6" ry="6" />
+  <text x="590" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#5b21b6">معالج المحادثة</text>
+  
+  <rect x="460" y="250" width="260" height="50" fill="#ede9fe" stroke="#ddd6fe" stroke-width="1" rx="6" ry="6" />
+  <text x="590" y="280" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#5b21b6">LangChain / OpenAI</text>
+  
+  <rect x="460" y="310" width="260" height="50" fill="#ede9fe" stroke="#ddd6fe" stroke-width="1" rx="6" ry="6" />
+  <text x="590" y="340" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#5b21b6">منطق الرد</text>
+  
+  <rect x="460" y="370" width="260" height="50" fill="#ede9fe" stroke="#ddd6fe" stroke-width="1" rx="6" ry="6" />
+  <text x="590" y="400" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#5b21b6">إدارة الذاكرة</text>
+  
+  <!-- الاتصالات -->
+  <path d="M360 280 L440 280" stroke="#94a3b8" stroke-width="3" stroke-dasharray="5,5" />
+  <polygon points="430,275 440,280 430,285" fill="#94a3b8" />
+  
+  <!-- نص التوضيح -->
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#334155">HTTP POST</text>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#334155">localhost:8000</text>
+  
+  <!-- المسارات -->
+  <rect x="300" y="450" width="200" height="30" fill="#f8fafc" stroke="#e2e8f0" stroke-width="0" rx="4" ry="4" />
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">ربط التطبيقات عبر API</text>
+</svg>
