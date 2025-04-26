@@ -86,7 +86,7 @@ You can modify the connection to your API in the file `src/lib/api/chat.ts`.
 ## Project Structure
 
 ```
-ai-chat-app/
+ai-chatbot/
 ├── src/ # App Source
 │ ├── app/ # App Paths and Pages
 │ ├── components/ # User Interface Components
