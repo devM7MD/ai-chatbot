@@ -22,7 +22,7 @@ This project is an AI conversational app similar to Claude, allowing users to in
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/devM7MD/ai-chat-app.git
+git clone https://github.com/devM7MD/ai-chatbot.git
 cd ai-chat-app
 ```
 
